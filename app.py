@@ -3,6 +3,9 @@ from sales_logic import SolarDataset
 
 data = SolarDataset()
 
+st.sidebar.markdown("---")
+st.sidebar.write("👤 **Developer:** Simran")
+
 st.set_page_config(page_title="Mierae Solar Sales Machine", page_icon="☀️")
 st.title("☀️ Mierae Solar: ChatBot")
 
