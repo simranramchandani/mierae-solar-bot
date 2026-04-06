@@ -59,7 +59,7 @@ with st.form("lead_form"):
     
     with col1:
         name = st.text_input("Name") # [cite: 86]
-        bill = st.number_input(content['q_bill'], min_value=₹ 0) # [cite: 89]
+        bill = st.number_input(content['q_bill'], min_value="₹" 0) # [cite: 89]
         city = st.text_input(content['q_city']) # [cite: 88]
     
     with col2:
