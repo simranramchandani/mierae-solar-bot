@@ -3,11 +3,11 @@ from sales_logic import SolarDataset
 
 data = SolarDataset()
 
-st.sidebar.markdown("---")
-st.sidebar.write("👤 **Developer:** Simran")
-
 st.set_page_config(page_title="Mierae Solar Sales Machine", page_icon="☀️")
 st.title("☀️ Mierae Solar: ChatBot")
+
+st.sidebar.markdown("---")
+st.sidebar.write("👤 **Developer:** Simran")
 
 lang = st.sidebar.selectbox("Select Language", ["Hindi", "Telugu", "Odia"])
 content = data.CONTENT[lang]
