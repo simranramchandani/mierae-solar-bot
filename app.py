@@ -53,5 +53,11 @@ with st.sidebar.expander("Handling Objections"):
     st.write("**Not Sure?** Free site visit, no commitment")
     st.write("**No Time?** पूरा process हम manage करेंगे")
 
+# --- FOOTER LOGIC ---
+# This creates empty space to push the text down
+for i in range(15):
+    st.sidebar.write("") 
+
 st.sidebar.markdown("---")
+st.sidebar.caption("© 2026 Mierae Solar. All Rights Reserved.")
 st.sidebar.caption("Developed by Simran")
