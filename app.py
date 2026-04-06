@@ -59,7 +59,11 @@ with st.form("lead_form"):
     
     with col1:
         name = st.text_input("Name") # [cite: 86]
-        bill = st.number_input(content['q_bill'], min_value="₹" 0) # [cite: 89]
+        col_icon, col_input = st.columns([1, 15])
+    with col_icon:
+        st.write("### ₹") # Large Rupee sign next to the box
+    with col_input:
+        bill = st.number_input(content['q_bill'], min_value=0)
         city = st.text_input(content['q_city']) # [cite: 88]
     
     with col2:
