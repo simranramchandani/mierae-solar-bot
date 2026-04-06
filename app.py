@@ -35,8 +35,8 @@ with st.form("lead_form"):
 # --- THE VALIDATION & SALES MACHINE LAYER ---
 if submitted:
     # 1. First Check: Is everything filled out?
-    if not name or not phone or not city or bill == 0: [cite: 85]
-        st.error("⚠️ Please fill in all details (Name, Phone, City, and Bill) before we can proceed.")
+    if not name or not phone or not city or bill == 0:
+        st.error("⚠️ Please fill in all details (Name, Phone, City, and Bill) before booking.")
     
     # 2. Second Check: House Ownership (Your priority)
     elif house == "Rented": [cite: 90]
