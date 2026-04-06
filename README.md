@@ -12,9 +12,17 @@ A high-converting, multilingual AI assistant designed to qualify leads for the *
 ### 1. Multilingual Support (Language Fluency: 20%)
 The bot is fully functional in three languages to maximize reach across diverse regions:
 * **Hindi**: Targeted at Northern/Central India.
+  <img width="1833" height="947" alt="image" src="https://github.com/user-attachments/assets/27443f74-7754-4661-abd3-24f0a168159f" />
+
 * **Telugu**: Targeted at Andhra Pradesh and Telangana.
+  <img width="1832" height="943" alt="image" src="https://github.com/user-attachments/assets/5f64bbf0-58da-4a61-944f-3519fc9311e5" />
+
 * **Odia**: Targeted at Odisha.
+  <img width="1840" height="949" alt="image" src="https://github.com/user-attachments/assets/5d372c6d-3398-49a0-9277-ba7fbf5dc411" />
+
 > **Note:** Use the sidebar dropdown in the app to switch languages instantly.
+ <img width="367" height="284" alt="image" src="https://github.com/user-attachments/assets/8ef7cd46-79cb-47c2-8e11-a32c3b305aa1" />
+
 
 ### 2. UI Customization (Light & Dark Mode)
 The app is built using Streamlit, which supports native theme switching. 
@@ -23,8 +31,9 @@ The app is built using Streamlit, which supports native theme switching.
 
 * **Light Mode**: Recommended for high-contrast readability during daytime demos.
    <img width="1843" height="950" alt="image" src="https://github.com/user-attachments/assets/1d04ce8c-09fb-47d5-9932-6a7ab291c5e4" />
+   
 
-* **How to switch:** Click the **Settings** (three dots) in the top right corner of the app -> **Settings** -> **Theme**.
+> **How to switch:** Click the **Settings** (three dots) in the top right corner of the app -> **Settings** -> **Theme**.
    <img width="330" height="453" alt="image" src="https://github.com/user-attachments/assets/9ee89037-0eb0-4cd5-9700-17ffd9f3e888" />
 
 
