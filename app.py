@@ -7,7 +7,7 @@ st.set_page_config(page_title="Mierae Solar Sales Machine", page_icon="☀️")
 st.title("☀️ Mierae Solar: ChatBot")
 
 st.sidebar.markdown("---")
-st.sidebar.write("👤 **Developer:** Simran")
+st.sidebar.caption("Developed by Simran")
 
 lang = st.sidebar.selectbox("Select Language", ["Hindi", "Telugu", "Odia"])
 content = data.CONTENT[lang]
