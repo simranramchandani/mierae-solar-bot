@@ -49,6 +49,6 @@ if submitted:
         st.info("Since you don't have roof access, we will contact you to discuss Community Solar projects.")
 
 with st.sidebar.expander("Handling Objections"):
-    st.write("**Cost?** EMI options available (2k-3k/month)") [cite: 68]
+    st.write("**Cost?** EMI options available (2k-3k/month)")
     st.write("**Not Sure?** Free site visit, no commitment") [cite: 70]
     st.write("**No Time?** पूरा process हम manage करेंगे") [cite: 72]
