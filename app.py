@@ -50,5 +50,5 @@ if submitted:
 
 with st.sidebar.expander("Handling Objections"):
     st.write("**Cost?** EMI options available (2k-3k/month)")
-    st.write("**Not Sure?** Free site visit, no commitment") [cite: 70]
-    st.write("**No Time?** पूरा process हम manage करेंगे") [cite: 72]
+    st.write("**Not Sure?** Free site visit, no commitment")
+    st.write("**No Time?** पूरा process हम manage करेंगे")
