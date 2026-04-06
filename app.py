@@ -6,9 +6,6 @@ data = SolarDataset()
 st.set_page_config(page_title="Mierae Solar Sales Machine", page_icon="☀️")
 st.title("☀️ Mierae Solar: ChatBot")
 
-st.sidebar.markdown("---")
-st.sidebar.caption("Developed by Simran")
-
 lang = st.sidebar.selectbox("Select Language", ["Hindi", "Telugu", "Odia"])
 content = data.CONTENT[lang]
 
@@ -55,3 +52,6 @@ with st.sidebar.expander("Handling Objections"):
     st.write("**Cost?** EMI options available (2k-3k/month)")
     st.write("**Not Sure?** Free site visit, no commitment")
     st.write("**No Time?** पूरा process हम manage करेंगे")
+
+st.sidebar.markdown("---")
+st.sidebar.caption("Developed by Simran")
