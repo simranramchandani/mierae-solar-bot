@@ -55,7 +55,7 @@ with st.sidebar.expander("Handling Objections"):
 
 # --- FOOTER LOGIC ---
 # This creates empty space to push the text down
-for i in range(15):
+for i in range(10):
     st.sidebar.write("") 
 
 st.sidebar.markdown("---")
